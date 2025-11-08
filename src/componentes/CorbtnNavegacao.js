@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 export default function CorbtnNavegacao() {
   useEffect(() => {
     // Define a cor da barra de navegação
-    NavigationBar.setBackgroundColorAsync('#00000000'); // preto
+    NavigationBar.setBackgroundColorAsync('rgba(0, 0, 0, 0)'); // preto
     // Define o estilo dos ícones (claro ou escuro)
     NavigationBar.setButtonStyleAsync('dark'); // 'light' ou 'dark'
   }, []);
